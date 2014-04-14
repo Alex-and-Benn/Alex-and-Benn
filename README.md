@@ -8,3 +8,12 @@ Click, "Settings:" the fourth icon on the left in the Grey bar of the main windo
 Make sure the, "Primary remote Repository (origin)"," feild says the following:
     https://github.com/Alex-and-Benn/Alex-and-Benn.git
 Click, "Update Remote," button.
+
+To Pull:
+To Be Written
+
+To Commit:
+TBW
+
+To Push:
+TBW
