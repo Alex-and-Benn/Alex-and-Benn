@@ -10,10 +10,11 @@ Alex-and-Benn
 <br>Click, "Update Remote," button.
 <br>
 <br>To Pull:
-<br>To Be Written
+<br>Open GitHub.app
+<br>Select "Repository Synchronize" (Command-S)
 <br>
 <br>To Commit:
-<br>TBW
+<br>To Be Written (TBW)
 <br>
 <br>To Push:
 <br>TBW
