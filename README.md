@@ -12,12 +12,16 @@ Alex-and-Benn
 <br>To Pull:
 <br>Open GitHub.app
 <br>Select "Repository Synchronize" (Command-S)
+If you get a conflict you'll see 
+<<<<< HEAD 
+your changes
+=====
+Benn's Changes
+>>>>> FETCH_HEAD
+It's up to you to decide which is right
 <br>
 <br>To Commit:
 <br>To Be Written (TBW)
 <br>
 <br>To Push:
 <br>TBW
-<br>Alex is a cool dude, but not as cool as Benn!
-
-hi there
