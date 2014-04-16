@@ -24,4 +24,8 @@ It's up to you to decide which is right
 <br>To Be Written (TBW)
 <br>
 <br>To Push:
+<<<<<<< HEAD
 <br>TBW
+=======
+<br>TBW
+>>>>>>> FETCH_HEAD
