@@ -13,18 +13,18 @@ Alex-and-Benn
 <br>Open GitHub.app
 <br>Select "Repository Synchronize" (Command-S)
 If you get a conflict you'll see 
-<code>
+<br><code>
 <<<<<<< HEAD 
 </code>
-your changes
-<pre>
+<br>your changes
+<br><code>
 =====
-</pre>
-Benn's Changes
-<pre>
->>>>>>>FETCH_HEAD
-</pre>
-It's up to you to decide which is right
+</code>
+<br>Benn's Changes
+<br><code>
+>>>>>>> FETCH_HEAD
+</code>
+<br>It's up to you to decide which is right
 <br>
 <br>To Commit:
 <br>To Be Written (TBW)
