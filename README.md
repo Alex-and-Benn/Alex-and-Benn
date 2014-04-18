@@ -13,9 +13,9 @@ Alex-and-Benn
 <br>Open GitHub.app
 <br>Select "Repository Synchronize" (Command-S)
 If you get a conflict you'll see 
-<pre>
+<code>
 <<<<<<< HEAD 
-</pre>
+</code>
 your changes
 <pre>
 =====
