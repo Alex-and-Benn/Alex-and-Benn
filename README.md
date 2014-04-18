@@ -13,11 +13,13 @@ Alex-and-Benn
 <br>Open GitHub.app
 <br>Select "Repository Synchronize" (Command-S)
 If you get a conflict you'll see 
-&lt;&lt;&lt;&lt;&lt;&lt;&lt; HEAD 
+<pre>
+<<<<<<< HEAD 
 your changes
 =====
 Benn's Changes
-&gt;&gt;&gt;&gt;&gt;&gt;&gt; FETCH_HEAD
+>>>>>>>FETCH_HEAD
+</pre>
 It's up to you to decide which is right
 <br>
 <br>To Commit:
