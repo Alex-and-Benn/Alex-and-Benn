@@ -15,9 +15,13 @@ Alex-and-Benn
 If you get a conflict you'll see 
 <pre>
 <<<<<<< HEAD 
+</pre>
 your changes
+<pre>
 =====
+</pre>
 Benn's Changes
+<pre>
 >>>>>>>FETCH_HEAD
 </pre>
 It's up to you to decide which is right
