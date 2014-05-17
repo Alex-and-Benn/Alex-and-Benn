@@ -1,4 +1,4 @@
-Alex-and-Benn
+ComicBetas
 =============
 Open GitHub.app
 Select "File>New Repository" (Command-N)
