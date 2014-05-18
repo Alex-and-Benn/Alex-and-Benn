@@ -2,7 +2,7 @@
   <div id="homepage" class="container">
     <?php include("assets/includes/content/header.php"); ?>
       <?php
-      $con=mysqli_connect('localhost', 'root', 'root', 'reseller');
+      $con=mysqli_connect('localhost', 'root', 'root', 'database');
       
       // Check connection
       if (mysqli_connect_errno()) {
@@ -10,7 +10,7 @@
       } else {
         echo "connected";
       }
-      $sql="INSERT INTO `reseller-contracts` (field1) VALUES ('$_POST[field1]')";
+      $sql="INSERT INTO `table` (field1) VALUES ('$_POST[field1]')";
       if (!mysqli_query($con,$sql)) {
         die('Error: ' . mysqli_error($con));
       } else {
