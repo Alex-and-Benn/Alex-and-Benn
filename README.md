@@ -4,21 +4,21 @@ read this in a text editor such as TextMate
 
 Ingredients:
 -------------
-Mac OS X Maverics
-GitHub.app
-A TextEditor: TextMate, TextWrangler, BBEdit or just VI
-A FTP client: Cyberduck, FileZilla, or just via Terminal (advabced)
-Terminal
-MAMP
+Mac OS X Maverics (http://www.apple.com/)
+GitHub.app (https://github.com/)
+A TextEditor: TextMate (http://macromates.com/), TextWrangler (http://www.barebones.com/products/textwrangler/), BBEdit (http://www.barebones.com/products/bbedit/) or just VI (advanced)
+A FTP client: Cyberduck (http://cyberduck.io/?l=en), FileZilla (https://filezilla-project.org/), or just via Terminal (advanced)
+Terminal (https://github.com/0nn0/terminal-mac-cheatsheet/wiki/Terminal-Cheatsheet-for-Mac-(-basics-))
+MAMP (http://www.mamp.info/en/)
 
 Stack(ish):
 -------------
-Mac
-Apache
-MySQL
-PHP
-SASS
-HTML
+Mac (http://www.apple.com/)
+Apache (http://httpd.apache.org/)
+MySQL (http://www.mysql.com/)
+PHP (http://www.php.net/)
+SASS (http://sass-lang.com/)
+HTML (http://w3schools.com)
 
 Setup:
 -------------
