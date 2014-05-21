@@ -1,6 +1,6 @@
-<?php include("assets/includes/global/header.php"); ?>
+<?php include("assets/includes/global-header.php"); ?>
   <div id="homepage" class="container">
-    <?php include("assets/includes/content/header.php"); ?>
+    <?php include("assets/includes/main-header.php"); ?>
       <?php
         if(isset($_POST['submit'])) {
           $con=mysqli_connect('localhost', 'root', 'root', 'database');
@@ -24,8 +24,8 @@
             <input type="submit" name="submit" id="submit" value="submit">
           </form>
         </div><!-- #main_content -->
-        <?php include("assets/includes/content/subNav.php"); ?>
+        <?php include("assets/includes/sub-nav.php"); ?>
       </div><!-- #content -->
-    <?php include("assets/includes/content/footer.php"); ?>
+    <?php include("assets/includes/main-footer.php"); ?>
   </div><!-- #homepage -->
-<?php include("assets/includes/global/footer.php"); ?>
+<?php include("assets/includes/global-footer.php"); ?>
