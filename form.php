@@ -20,7 +20,7 @@
       <div id="content">
         <div id="main_content">
           <form action="form.php" method="POST">
-            <input type="text" name="field1" id="field1" value="">
+            <input type="text" name="field1" id="field1" value="" placeholder="Type an Item (e.g. Item1)">
             <input type="submit" name="submit" id="submit" value="submit">
           </form>
         </div><!-- #main_content -->
