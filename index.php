@@ -1,6 +1,6 @@
 <?php include("assets/includes/global-header.php"); ?>
+<?php include("assets/includes/main-header.php"); ?>
 <div id="homepage" class="container">
-	<?php include("assets/includes/main-header.php"); ?>
   <div id="content">
     <div id="main_content">
       Hello World <a href="#">test</a>
