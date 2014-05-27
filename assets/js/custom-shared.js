@@ -28,4 +28,5 @@ $(document).ready(function(){
     displayKey: 'value',
     source: substringMatcher(items)
   });
+  $("#carousel-slider").norse_transitions('form');
 })

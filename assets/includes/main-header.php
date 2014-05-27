@@ -5,6 +5,7 @@
       <ul class="nav navbar-nav">
         <li><a href="index.php">home</a></li>
         <li><a href="form.php">form</a></li>
+        <li><a href="gallery.php">gallery <small class="status">(Alpha)</small></a></li>
       </ul>
     </nav>
   </div>

@@ -1,9 +1,25 @@
 $(document).ready(function(){
   $.fn.norse_transitions = function(a) {
-    /*$(this).children('.dynamic-caption').each(function(){
-      console.log(this.attr('data-transition'));
+    this.find('.dynamic-caption').each(function(){
+      if($(this).attr('data-transition') == "spiral") {
+        var startX = $(this).attr('data-start-x'); // where the objects left side starts
+				var starty = $(this).attr('data-start-y'); // where the objects top side starts
+        console.log(startX);
+      } else if($(this).attr('data-transition') == "zoomin") {
+        var m = $(this).children('span').height();
+        var n = $(this).children('span').width();
+        var o = $(this).attr('data-speed');
+
+        $(this).children().css({'-webkit-animation' : 'zoomin ' + o + 'ms'})
+        $(this).children().css({'animation' : 'zoomin ' + o + 'ms'});
+
+        $(this).css({"bottom" : "auto"});
+        $(this).css({"left" : $(this).attr('data-y') + "px"});
+        $(this).css({"right" : "auto"});
+        $(this).css({"top" : $(this).attr('data-x') + "px"});
+      }
     })
-    <dl>
+    /*<dl>
         <dt>slidein</dt>
           <dd>A basic slide to the destination <small>(requires start coordinates)</small></dd>
         <dt>spiral</dt>
