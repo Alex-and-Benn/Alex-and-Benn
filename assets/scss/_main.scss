@@ -20,11 +20,11 @@ header {
 /* Chrome, Safari, Opera */
 @-webkit-keyframes zoomin {
   from {
-    height:0;
-    width:0;
+    height:0px;
+    width:0px;
   }
   to {
-    height:17px;
+    height:29px;
     width:134px;
   }
 }
@@ -32,11 +32,11 @@ header {
 /* Standard syntax */
 @keyframes zoomin {
   from {
-    height:0;
-    width:0;
+    height:0px;
+    width:0px;
   }
   to {
-    height:17px;
+    height:29px;
     width:134px;
   }
 }
