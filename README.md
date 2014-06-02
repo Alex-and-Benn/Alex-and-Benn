@@ -2,7 +2,7 @@ ComicBetas
 =============
 read this in a text editor such as TextMate
 
-####Ingredients:
+####Software:
 -Mac OS X Maverics (http://www.apple.com/)
 
 -GitHub.app (https://github.com/)
@@ -15,7 +15,7 @@ read this in a text editor such as TextMate
 
 -MAMP (http://www.mamp.info/en/)
 
-####Stack(ish):
+####Hardware:
 -Mac (http://www.apple.com/)
 
 -Apache (http://httpd.apache.org/)
@@ -39,14 +39,14 @@ read this in a text editor such as TextMate
 6. Click, "Update Remote," button.
 
 #####Open Terminal
-
+1. Go to you're local storage area
 $ cd /ComicBetas/Initial/
-
+2. Install SASS
 $ sudo gem install sass
 
 ####To Pull:
 #####Open GitHub.app
-1. select "Repository Synchronize" (Command-S)
+1. Select "Repository Synchronize" (Command-S)
 2. If you get a conflict you'll see 
 ```html
 <<<<<<< HEAD
@@ -59,13 +59,18 @@ Benn's Changes
 
 ####To Change:
 #####CSS:
-1. edit style.css
-2. Open terminal
+1. Edit style.scss
+2. Open Terminal
     $ cd /ComicBetas/Initial/assets/scss
     $ sass style.scss ../css/custom.css --style=compressed /* this is generating custom.css, see site for additional addons
 
 ####To Commit:
-To Be Written (TBW)
+#####Open GitHub.app
+1. Go to the changes item
+2. Type a descriptive summary
+3. Check the boxes of the items you'd like to include
+4. Click the "Commit" button
 
 ####To Push:
-TBW
+#####Open GitHub.app
+1. Press "Sync Branch" (Command-S)
