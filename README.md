@@ -1,6 +1,5 @@
 ComicBetas
 =============
-read this in a text editor such as TextMate
 
 ####Software:
 -Mac OS X Maverics (http://www.apple.com/)
