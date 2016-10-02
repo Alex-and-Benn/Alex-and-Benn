@@ -3,7 +3,7 @@
 <div id="homepage" class="container">
   <div id="content">
     <div id="main_content">
-      <h1>Product</h1>
+      <h1>product</h1>
       Hello World <a href="#">test</a>
     </div><!-- #main_content -->
     <?php include("assets/includes/sub-nav.php"); ?>
