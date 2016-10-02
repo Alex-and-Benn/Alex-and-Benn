@@ -19,25 +19,26 @@
     ?>
       <div id="content">
         <div id="main_content">
+          <h1>Contact</h1>
           <div>
-          <h2>Content of table</h2>
-          <?php
-            $con=mysqli_connect("localhost", "root", "root", "database");
-            // Check connection
-            if (mysqli_connect_errno()) {
-              echo "Failed to connect to MySQL: " . mysqli_connect_error();
-              exit();
-            }
-            $result = mysqli_query($con,"SELECT * FROM `table`");
-            if(mysqli_fetch_array($result)) {
-              while($row = mysqli_fetch_array($result)) {
-                echo "<div>" . $row['field1'] . "</div>";
+            <h2>Content of table</h2>
+            <?php
+              $con=mysqli_connect("localhost", "root", "root", "database");
+              // Check connection
+              if (mysqli_connect_errno()) {
+                echo "Failed to connect to MySQL: " . mysqli_connect_error();
+                exit();
               }
-            } else {
-              echo "<i>No table content</i>";
-            }
-            mysqli_close($con);
-          ?>
+              $result = mysqli_query($con,"SELECT * FROM `table`");
+              if(mysqli_fetch_array($result)) {
+                while($row = mysqli_fetch_array($result)) {
+                  echo "<div>" . $row['field1'] . "</div>";
+                }
+              } else {
+                echo "<i>No table content</i>";
+              }
+              mysqli_close($con);
+            ?>
           </div>
           <div>
             <h2>Insert into table</h2>
