@@ -5,7 +5,7 @@
     <div id="main_content">
       Hello World <a href="#">test</a>
     </div><!-- #main_content -->
-      <?php include("assets/includes/sub-nav.php"); ?>
+    <?php include("assets/includes/sub-nav.php"); ?>
   </div><!-- #content -->
   <?php include("assets/includes/main-footer.php"); ?>
 </div><!-- #homepage -->
