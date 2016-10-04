@@ -21,7 +21,7 @@
         <div id="main_content">
           <h1>contact</h1>
           <div>
-            <h2>Content of table</h2>
+            <h2>content of table</h2>
             <?php
               $con=mysqli_connect("localhost", "root", "root", "database");
               // Check connection
