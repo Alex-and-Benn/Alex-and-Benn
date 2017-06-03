@@ -1,4 +1,5 @@
-<script src="assets/js/jquery.min.js"></script>
-<script src="assets/js/bootstrap.min.js"></script>
-<script src="assets/js/typeahead.bundle.min.js"></script>
-<script src="assets/js/custom-shared.js"></script>
+<?php
+/*
+BEST PRACTICE: A copyright with a year range protects content.
+*/
+?><footer>&copy; 2010-<?php echo date("Y"); ?></footer>
