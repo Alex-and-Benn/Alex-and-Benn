@@ -41,7 +41,7 @@ ComicBetas
 <<<<<<< HEAD
 your changes
 =======
-Benn's Changes
+Your Changes
 >>>>>>> FETCH_HEAD
 ```
     It's up to you to decide which is right
@@ -50,8 +50,11 @@ Benn's Changes
 ##### CSS:
 1. Edit style.scss
 2. Open Terminal
-    $ cd /ComicBetas/Initial/assets/scss
-    $ sass style.scss ../css/custom.css --style=compressed /* this is generating custom.css, see site for additional addons
+```
+$ cd /ComicBetas/Initial/assets/scss
+$ sass style.scss ../css/custom.css --style=compressed
+```
+The second line is generating custom.css, see <http://sass-lang.com/> for additional addons
 
 #### To Commit:
 ##### Open GitHub.app
