@@ -2,7 +2,7 @@ ComicBetas
 =============
 
 #### Software:
-- Mac OS X Maverics (http://www.apple.com/)
+- Mac OS X Sierra (http://www.apple.com/)
 - GitHub.app (https://github.com/)
 - A TextEditor: TextMate (http://macromates.com/), TextWrangler (http://www.barebones.com/products/textwrangler/), BBEdit (http://www.barebones.com/products/bbedit/) or just VI (advanced)
 - A FTP client: Cyberduck (http://cyberduck.io/?l=en), FileZilla (https://filezilla-project.org/), or just via Terminal (advanced)
