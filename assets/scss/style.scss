@@ -1,41 +1,48 @@
-// Definitions
-$black:           #000;
-$blue:            #428bca;
-$green:           #42ca8b;
-$grey:            #888;
-$orange:          #ca8bca;
-$purple:          #ca42ca;
-$red:             #ca8b42;
-$yellow:          #8ccaca;
-$white:           #fff;
-
-$link-color:      $blue;
-$link-hover-color:darken($link-color, 10%);
-$font-color:   darken($grey, 30%);
-$divider-color:   $grey;
-$shadow-color:    rgba(0,0,0,0.4);
-$primary-color:   #000;
-$success-color:   $green;
-$warning-color:   $orange;
-$danger-color:    $red;
-$info-color:      $blue;
-$status-color:    $red;
-
-$gutter:         16px;
-
-$base-font:       Helvetica, Geneva, sans-serif;
-
-@mixin border-radius($radius) {
-  -webkit-border-radius: $radius;
-     -moz-border-radius: $radius;
-      -ms-border-radius: $radius;
-          border-radius: $radius;
-}
-
-@mixin box-shadow($top, $left, $blur, $color, $inset:"") {
-  -webkit-box-shadow:$top $left $blur $color #{$inset};
-  -moz-box-shadow:$top $left $blur $color #{$inset};
-  box-shadow:$top $left $blur $color #{$inset};
-}
 // Libraries
 @import "_main";
+
+body{
+  color:$font-color;
+  margin:70px 0 0;
+  padding:0;
+  font:15px $base-font;
+}
+
+a{
+  color:$blue
+}
+
+header {
+  margin-bottom:$gutter;
+  @include box-shadow(0, 4px, 4px, rgba(0, 0, 0, 0.1))
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes zoomin {
+  from {
+    height:0px;
+    width:0px;
+  }
+  to {
+    height:29px;
+    width:134px;
+  }
+}
+
+/* Standard syntax */
+@keyframes zoomin {
+  from {
+    height:0px;
+    width:0px;
+  }
+  to {
+    height:29px;
+    width:134px;
+  }
+}
+
+.status {
+  color:$status-color;
+  font-size:70%;
+  text-transform:uppercase;
+}
