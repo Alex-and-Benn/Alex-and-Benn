@@ -5,6 +5,7 @@
     <?php
     /*
     BEST PRACTICE: The viewport meta tag is needed to make the page responsive.
+    Bootstrap v3.4.1 (https://getbootstrap.com/)
     */
     ?>
     <meta name="viewport" content="width=device-width">
